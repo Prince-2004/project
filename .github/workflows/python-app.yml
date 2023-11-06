@@ -26,4 +26,4 @@ jobs:
    
     - name: Python application
       run: |
-        python calculator.py
+        pytest calculator.py
